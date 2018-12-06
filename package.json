@@ -1,0 +1,27 @@
+{
+  "name": "christmas-challenge",
+  "version": "1.0.0",
+  "description": "Advent calendar code challenge (https://adventofcode.com/)",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint \"./src/**/*.js\"",
+    "format": "prettier --write \"./src/**/*.+(js|md|ts|css|sass|scss|less|graphql|yml|yaml|vue|json)\""
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "author": "Jean-Louis Gouwy",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "husky": "^1.2.0",
+    "prettier": "^1.15.3"
+  },
+  "dependencies": {}
+}
