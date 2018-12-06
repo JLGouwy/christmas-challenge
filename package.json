@@ -13,7 +13,7 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "./src/**/*.js": [
       "eslint --fix",
       "npm format",
       "git add"
