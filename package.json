@@ -12,6 +12,13 @@
       "pre-commit": "lint-staged"
     }
   },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "npm format",
+      "git add"
+    ]
+  },
   "author": "Jean-Louis Gouwy",
   "license": "ISC",
   "devDependencies": {
