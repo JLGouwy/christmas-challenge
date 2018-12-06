@@ -9,11 +9,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "lint-staged"
+      "pre-commit": "npm run format"
     }
   },
   "lint-staged": {
-    "**/**/*.{js,json,css,md}": ["prettier --write", "git add"]
+    "*.js": ["prettier --write", "git add"]
   },
   "author": "Jean-Louis Gouwy",
   "license": "ISC",
