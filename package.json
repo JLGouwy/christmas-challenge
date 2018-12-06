@@ -13,11 +13,13 @@
     }
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "npm run format",
-      "git add"
-    ]
+    "linters": {
+      "*.js": [
+        "eslint --fix",
+        "npm run format",
+        "git add"
+      ]
+    }
   },
   "author": "Jean-Louis Gouwy",
   "license": "ISC",
