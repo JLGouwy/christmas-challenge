@@ -33,6 +33,8 @@ function execPart2() {
       }
     }
   }
+
+  return 'no result';
 }
 
 console.log(execPart2());
